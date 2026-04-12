@@ -1,137 +1,102 @@
-# Develop Branch – Contribution Guide  
 
----
+## Overview
 
-## Purpose of the `develop` Branch  
+### The challenge
 
-This is where all development happens before going to `main`.
+Users should be able to:
 
-You will:
-- Work on your tasks  
-- Practice Git workflow  
+- See hover and focus states for all interactive elements on the page
 
-Do NOT push directly to `main`
+### Screenshot
 
----
+This is my screenshot
 
-## About This Challenge  
+<img src="./design/my blog.png">
 
-This project is based on the **Frontend Mentor – Blog Preview Card challenge**.  
 
-https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS  
+### Links
 
----
+- My Live Site URL: https://freedev-group.github.io/blog-preview-card-main-Yusse/
 
-### Objective  
+## My process
 
-Build a **blog preview card** that matches the design as closely as possible.
+### Built with
 
-The card includes:
+- Semantic HTML5 markup
+- CSS custom properties
+- Git and GitHub implementations 
 
-- An illustration image  
-- A category/tag  
-- A publication date  
-- A title  
-- A short description  
-- Author information  
+### What I learned
 
----
+I learned how to make resposiveness, see below: 
 
-### Challenge Files  
+/* Desktop layout — 1440px */
 
-Before coding, take time to understand:
+@media (min-width: 1024px) {
 
-- `style-guide.md` → colors, fonts, spacing  
-- `design/` → desktop & mobile layouts  
-- `images/` → assets used in the project  
+  body {
+  
+    padding: 4rem 0;
+  }
 
-Do not start coding without understanding the design.
+  .card {
+  
+    max-width: 420px;   /* Slightly bigger for desktop mockup */
+    
+    padding: 1.7rem;
+    
+    box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+  }
 
----
+  .title {
+  
+    font-size: 1.55rem;
+    
+  }
 
-## Commit : Best Practices  
+  .description {
+  
+    font-size: 18px;
+    
+    line-height: 1.6rem;
+    
+  }
+  
+}
 
-### When to commit  
+/* Very large screens (1440px+ for perfect centering) */
 
-- After a small task  
-- After a meaningful change  
+@media (min-width: 1440px) {
 
----
+  .card {
+  
+    transform: scale(1.05);
+    
+  }
+  
+}
 
-### Commit format  
 
-feat: add HTML structure
-style: add CSS styling
-fix: correct layout issue
-docs: update README
-setup: project setup
+### Continued development
 
----
+I would like to continue working on CSS styling to improve on that area. 
 
-### Important  
+### Useful resources
 
-When you open your PR:
+I did not use other resources
 
-Always target `develop`, NOT the previous branch  
+### AI Collaboration
 
-<img width="1356" height="580" alt="image" src="https://github.com/user-attachments/assets/33d02ca0-e868-4ed8-9c09-b66815034f11" />
+I used ChatGPT, to gain more explanations on some Css styling that challenged me. Though it did not tell me exaclty what I wanted to know. 
 
----
 
-### Legend  
 
-As shown in the image:
 
-- Your branch appears in the orange box  
-- Click the dropdown (green box)  
-- Select `develop` (blue arrow)  
+## Author
 
----
+- Website - [Celestin Yusse ]https://freedev-group.github.io/blog-preview-card-main-Yusse/
+- Frontend Mentor - [@celestin](https://www.frontendmentor.io/profile/yourusername)
 
-### IMPORTANT RULE  
 
-Even if your branch is based on another branch:
+## Acknowledgments
 
-Always merge into `develop`  
-
-This keeps the project clean and avoids dependency issues.
-
----
-
-## About "agent" and "Claude" Files  
-
-In this challenge, you may see tools like:
-
-`agent`, `Claude`
-
-These are AI assistants files.
-
----
-
-### Important  
-
-- Do NOT copy blindly  
-- Always understand the code  
-- Use them as helpers, not replacements  
-
----
-
-## Learning Objective  
-
-This challenge is not only about building UI.
-
-You are learning:
-
-- How to work step by step  
-- How to use Git correctly  
-- How to think like a developer  
-
----
-
-## Final Note  
-
-You are allowed to make mistakes.  
-
-This is part of the learning process.  
-
-We are here to learn, not to be perfect.
